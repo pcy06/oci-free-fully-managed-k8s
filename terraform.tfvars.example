@@ -1,0 +1,12 @@
+tenancy_ocid = "ocid1.tenancy.***********"
+user_ocid = "ocid1.user.***********"
+compartment_ocid = "ocid1.tenancy.***********"
+fingerprint = "xx:xx:xx:xx:xx..."
+private_key_path = "identity/key_name.pem"
+ssh_key_export_path = "outputs/ssh-key.pem"
+region = "ap-chuncheon-1"
+
+// 현재 사용 불가능한 옵션을 사용할 경우 apply가 제대로 이루어지지 않습니다.
+// 가능한 옵션을 잘 조사하신 후 값을 변경하는 것을 추천합니다.
+kubernetes_version = "1.31.1"
+oracle_linux_version = "8.10"
